@@ -1,0 +1,127 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+ul{
+    list-style: none;
+}
+.container{
+    border: 1px solid red;
+    height: 900px;
+    width: 800px;
+    margin: 20px;
+    background-image: url('https://anhdepfree.com/wp-content/uploads/2022/01/background-3d-4k_529380.jpg');
+    background-size: cover;
+    background-position-x:px;
+}
+.header{
+    height: 20%;
+    background: pink;
+    
+}
+.title{
+    background: skyblue;
+    display: flex;
+    text-align: center;
+    height: 70%;
+}
+.title img{
+   margin: 5PX;
+   height: 70%;
+}
+
+.menu{
+    display: flex;
+    color: white;
+    background: black;
+   justify-content: flex-start;
+   height: 30%;
+   align-items: center;
+}
+.menu li :hover{
+    color: red;
+}
+.menu1{
+    display: none;
+}
+.menu li:hover .menu1
+.menu li{
+    width: 200px;
+    text-align: center;
+    list-style: none;
+}
+
+.content{
+   display: grid;
+grid-template-columns: 20% 1fr;
+height: 80%;
+}
+.right{
+    border-left: 1px solid black;
+    height: 100%;
+}
+.right p{
+    height: 30px;
+    margin: 10px;
+}
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap:30px;
+    column-gap: 50px; 
+    padding: 10px;
+    margin: 20px;
+}
+#pro1{
+    background: white;
+    text-align: center;
+}
+.ps img{
+    height: 80%;
+    width: 100%;
+    }
+
+.left ul li{
+    height: 30px;
+    border: solid 1px;
+    text-align: center;
+    
+}
+.Item li:hover{
+    border: maroon solid 2px;
+}
+
+.drop1,.drop2,.drop3,.drop4{
+    display:none;
+}
+.Item :hover .drop1 {
+display: block;
+ background: black;
+ color: red;
+ position: relative;
+ left: 155px;
+ top: -20px;
+}
+
+ul.drop1 li:hover ul.drop2{
+    display: block;
+     background: black;
+     color: red;
+     position: relative;
+     left: 155px;
+     top: -27px;
+    }
+
+ul.drop2 li:hover .drop3{
+    display: block;
+     background: black;
+     color: red;
+     position: relative;
+     left: 155px;
+     top: -27px;
+    }
